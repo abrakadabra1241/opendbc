@@ -507,6 +507,23 @@ FW_VERSIONS = {
       b'\xa7\xfe\xf4@\x00',
     ],
   },
+  CAR.SUBARU_OUTBACK_EU: {
+    (Ecu.abs, 0x7b0, None): [
+      b'\x0b\x97\xbe\x10',      
+    ],
+    (Ecu.eps, 0x746, None): [
+      b'{\xb0\x00\x01',
+    ],
+    (Ecu.fwdCamera, 0x787, None): [
+      b'\x00\x00ef\x00\x00\x00\x00',
+    ],
+    (Ecu.engine, 0x7e0, None): [
+      b'\xd3b@p\x07',
+    ],
+    (Ecu.transmission, 0x7e1, None): [
+      b'\xba\xe2@`\x00',
+    ],
+  },
   CAR.SUBARU_FORESTER_2022: {
     (Ecu.abs, 0x7b0, None): [
       b'\xa3 !v\x00',

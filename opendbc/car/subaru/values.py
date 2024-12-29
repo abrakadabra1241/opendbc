@@ -130,6 +130,10 @@ class CAR(Platforms):
     [SubaruCarDocs("Subaru Outback 2020-22", "All", car_parts=CarParts.common([CarHarness.subaru_b]))],
     CarSpecs(mass=1568, wheelbase=2.67, steerRatio=17),
   )
+  SUBARU_OUTBACK_EU = SubaruGen2PlatformConfig(
+    [SubaruCarDocs("Subaru Outback 2020 EU", "All", car_parts=CarParts.common([CarHarness.subaru_b]))],
+    CarSpecs(mass=1836, wheelbase=2.7, steerRatio=13),
+  )
   SUBARU_LEGACY = SubaruGen2PlatformConfig(
     [SubaruCarDocs("Subaru Legacy 2020-22", "All", car_parts=CarParts.common([CarHarness.subaru_b]))],
     SUBARU_OUTBACK.specs,
